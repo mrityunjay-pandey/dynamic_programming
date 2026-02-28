@@ -43,8 +43,8 @@ int meddp(string s1, string s2, vector<vector<int>> &dp){
 }
 
 int main(){
-    string s1 = "SATURDAY";
-    string s2 = "SUNDAY";
+    string s1 = "HORSE";
+    string s2 = "ROS";
     int m = s1.size();
     int n = s2.size();
     vector<vector<int>>dp(m+1, vector<int>(n+1,-1));
